@@ -37,7 +37,6 @@ public class VersionComparer
 	{
 		var lengths = new int[maxRevisionLevels];
 		
-		
 		for (var index = 0; index < splittedVersion1.length; index++)
 		{
 			lengths[index] = splittedVersion1[index].length();
