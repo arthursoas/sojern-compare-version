@@ -1,4 +1,4 @@
-# 🛠️ Version Compare Util
+# 🛠️ Version Comparer Util
 This project is part of Sojern Software Engineer assignment.
 
 This code, compare two version strings in format X.X.X... and return the following results
