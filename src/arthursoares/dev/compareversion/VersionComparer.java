@@ -53,7 +53,7 @@ public class VersionComparer
 		return lengths;
 	}
 	
-	private int convertVersionStringToInt(String[] splittedVersion, int[] revisionLevelLengths)
+	private long convertVersionStringToInt(String[] splittedVersion, int[] revisionLevelLengths)
 	{
 		var versionNumber = "";
 		
@@ -72,7 +72,7 @@ public class VersionComparer
 			versionNumber += generateZerosString(revisionLevelLengths[index]);
 		}
 		
-		return Integer.parseInt(versionNumber);
+		return Long.parseLong(versionNumber);
 	}
 	
 	private String generateZerosString(int amount)
